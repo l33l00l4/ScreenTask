@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -436,6 +436,9 @@ namespace ScreenTask
             Process.Start("https://github.com/EslaMx7/ScreenTask");
         }
 
+        private void numShotEvery_ValueChanged(object sender, EventArgs e)
+        {
 
+        }
     }
 }
